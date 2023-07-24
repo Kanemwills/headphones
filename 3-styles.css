@@ -1,60 +1,193 @@
-/* styles.css */
-/* Global styles */
-/* ... (Existing styles) ... */
-
-/* Contact section styles */
-.contact {
-    background-color: #fff;
-    padding: 50px 0;
-}
-
-.contact h2 {
+body {
+    background-image: url("images/headphones_hero_1.jpg");
+    object-fit: cover;
+    color: white;
     text-align: center;
-    margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rex;
+   
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-form {
-    max-width: 600px;
-    margin: 0 auto;
+.navbar-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
+.nav.nav-link {
     display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
+    padding: 0.5rem 0;
+    position: relative;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+nav ul li {
+    margin: 10px; 
+  }
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rex;
+  }
+  
+   
+  /* Hover effect */
+  nav ul li a:hover {
+    color: #FF6565;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+  }
+
+
+.hero-section {
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+
 }
 
-textarea {
-    resize: vertical;
+
+  
+.button {
+    background-color: #FF6565;
+    border-radius: 20px;
+    color: white;
+    height: 30px;
+    width: 130px;
+    margin-top: 30px;
 }
 
-button {
-    background-color: #ff6600;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+.paragraph-main {
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
-button:hover {
-    background-color: #e65c00;
+.header-section.logo{
+    .container {
+        display: grid;
+        place-items: center; /* Center both horizontally and vertically */
+        height: 100vh; /* Set the height of the container to the full viewport height */
+      }
+      
+    
+}
+ 
+.logo img {
+    height: 30px;
+    width: 150px;
 }
 
-/* Footer styles */
-/* ... (Existing styles) ... */
+.w-6 {
+    width: 50px;
+}
+
+.small-screen {
+    display: none;
+}
+@media screen and (max-width: 480px){
+    .small-screen {
+        display: block;
+    }
+    
+}
+  
+  
+  
+  /* what we do */
+
+.what-we-do {
+  display: flex;  
+  background-color: white;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rex;
+  flex-wrap: wrap;
+}
+
+.what-we-do .text2 {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 100px
+      
+}
+
+/*Our results section*/
+.our-results {
+    background-image: url("images/headphones_hero_2.jpg");
+    object-fit: cover;
+}
+
+.pentagone {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 150px;
+    padding-bottom: 100px;  
+}
+
+.our-results .text3 {
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 130px;
+}
+
+.text3 h2{
+    margin-bottom: 40px;
+}
+
+.contact-us {   
+    background-color: white;
+    color: black;
+    
+    
+}
+ .contact-section {
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px; 
+    
+ }
+
+ .contact-details {
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 400px;
+   
+     
+ }
+ .contact-details hr {
+    width: 180px;
+ }
+
+ .contact-details .button {
+    margin-bottom: 100px; 
+
+ }
